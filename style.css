@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+ 
+  
+  /*--------------NAVBAR------------------*/
+  .parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 50px ;
+    gap: 200px;
+    
+  }
+  .child1 h1{
+    font-size:35px ;
+    color:white;
+  }
+
+  .child2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    color: beige;
+    gap: 50px;
+  }
+  .child2 p{
+    display: flex;
+    color:white ;
+    font-size:20px ;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  
+  .burger .line{
+    background-color: white;
+  }
+  .parent .burger{
+    display: none;
+
+  }
+
+
+
+
+
+ /*-------------------HERO SECTION-----------------------*/
+  
+  .header {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    padding:20px ;
+    
+  }
+
+
+  .header h1{
+    font-size: 50px;
+  }
+  .img{
+    width: 30%;
+  }
+  .img img{
+    width: 100%;
+    
+  }
+
+  .button button{
+    background-color: #deab5f;
+    border: none;
+    padding: 20px;
+
+  }
+  @media(max-width: 1300px){
+    .header h1{
+      font-size:30px ;
+    }
+  }
+
+
+  
+
+
+  
+ 
+   
+  
+  
+  /*----------------EVENT SECTION------------------*/
+
+  .content-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 20px;
+  }
+  
+  .content-section h1 {
+    
+    color: white;
+    font-size: 50px;
+    
+  }
+  
+  .content-section button{
+    background-color: #deab5f;
+    width: 200px;
+    padding: 10px 30px;
+
+  }
+  .coffee-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    width:100% ;
+    padding: 50px 0;
+    gap: 60px;
+
+  }
+
+  
+
+   
+    .coffee-container  {
+      font-size:20px ;
+      padding:0 150px;
+       margin-left:0 200px ;
+      }
+      
+      
+    
+   
+    
+  
+  
+  .content-section p {
+   font-size: 15px;
+   color: white;
+  }
+  
+  .img-container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container img{
+    width: 400px;
+  }
+    
+  /*-------------------PRODUCTS SECTION-------------------------*/ 
+  
+  
+ 
+
+  .products {
+    margin-top: 5rem;
+  }
+
+  .prod{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    font-size: 30px;
+    padding: 50px 100px;
+
+  }
+
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  
+  .card {
+    border: 2px solid #deab5f;
+    padding: 0 20px;
+    height: 400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    }
+  
+  .card button{
+    background-color: rgb(237, 154, 54);
+    color: white;
+    padding: 10px 30px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .card .items p {
+    color: white;
+    margin: 20px 0;
+    
+  }
+  .hr{
+    margin-top: 20px;
+  }
+
+      
+    
+
+    .prod{
+      flex-direction:column;
+      padding: 50px 200px;
+    }
+  
+
+ 
+    
+  
+  
+
+   
+  /*----------------FOOTER SECTION--------------------------------*/
+  
+  footer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  footer .container {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  footer .heading-info {
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    line-height: 25px;
+  }
+  
+  span {
+    color: orange;
+  }
+  
+  hr {
+    margin-bottom: 20px;
+    border-color: orange;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .para {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  @media(max-width: 900px){
+    .child2{
+      display: none;
+    }
+
+    .burger .line{
+      background-color: white;
+      height: 3px;
+      width: 40px;
+      margin-bottom: 4px;
+    }
+    .parent .burger{
+      display: block;
+    }
+  }
+
+  
