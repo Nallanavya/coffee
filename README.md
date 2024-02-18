@@ -2,6 +2,7 @@
 Creating a sample Application using HTML, CSS.
 
 ## Description
+The coffee project is a multifaceted initiative centered around the cultivation, production, and appreciation of coffee. It encompasses various aspects of the coffee industry, from the growth and harvesting of coffee beans to the processing, roasting, and brewing of the final product. This project aims to explore and promote sustainable and ethical practices throughout the entire coffee supply chain.
 
 ## Demo
 
